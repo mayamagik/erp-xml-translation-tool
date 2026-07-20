@@ -318,4 +318,4 @@ The repository intentionally excludes:
 - virtual environments and Python caches;
 - IDE configuration and nested archives.
 
-Never commit a real API key. If a key has previously appeared in a shared file or repository, revoke or rotate it through the provider before using it again.
+
