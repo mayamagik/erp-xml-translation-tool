@@ -1,0 +1,6 @@
+# Add one rule per line.
+# unit: uses shell-style wildcards against <unit name="...">.
+# prefix: skips identifier-like source texts beginning with this prefix.
+
+unit: DemoTechnical*
+prefix: internal

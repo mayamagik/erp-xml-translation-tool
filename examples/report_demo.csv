@@ -1,0 +1,30 @@
+﻿metric;value
+total_items;19
+translated_total;13
+skipped_total;6
+identical_to_source_total;5
+
+item_id;kind;stringid;owner_form;owner_component;owner_unit;status;skip_reason;issues;source_text;protected_text;translated_protected_text;final_text;hotkey_source_has;hotkey_final_has;hotkey_inserted;hotkeys_source;hotkeys_final;hotkey_count_diff;missing_translation;placeholder_source_count;placeholder_final_count;newline_source_count;newline_final_count;leading_space_source;leading_space_final;trailing_space_source;trailing_space_final
+1;prop;;DemoCustomerForm;;;translated;;;Kundenverwaltung;Kundenverwaltung;Gestion des clients;Gestion des clients;0;0;0;;;0;0;0;0;0;0;0;0;0;0
+2;prop;;DemoCustomerForm;lblCustomerNumber;;translated;;;Kundennummer;Kundennummer;Numéro de client;Numéro de client;0;0;0;;;0;0;0;0;0;0;0;0;0;0
+3;prop;;DemoCustomerForm;lblCustomerName;;translated;;;Kundenname;Kundenname;Nom du client;Nom du client;0;0;0;;;0;0;0;0;0;0;0;0;0;0
+4;prop;;DemoCustomerForm;btnOptions;;translated;;;&Optionen;<x-protect>&O</x-protect>ptionen;<x-protect>&O</x-protect>ptions;&Options;1;1;0;&O;&O;0;0;0;0;0;0;0;0;0;0
+5;prop;;DemoCustomerForm;btnOptions;;translated;;;Änderungen speichern?;Änderungen speichern?;Enregistrer les modifications ?;Enregistrer les modifications ?;0;0;0;;;0;0;0;0;0;0;0;0;0;0
+6;prop;;DemoCustomerForm;btnCancel;;translated;;;Abbrechen;Abbrechen;Annuler;Annuler;0;0;0;;;0;0;0;0;0;0;0;0;0;0
+7;prop;;DemoCustomerForm;btnDelete;;translated;;;Löschen;Löschen;Supprimer;Supprimer;0;0;0;;;0;0;0;0;0;0;0;0;0;0
+8;prop;;DemoCustomerForm;lblStatus;;translated;;;Status: Bereit;Status: Bereit;Statut: Prêt;Statut: Prêt;0;0;0;;;0;0;0;0;0;0;0;0;0;0
+9;prop;;DemoCustomerForm;technicalExample;;skipped;technical_identifier_source_text;;btnSave;;;btnSave;0;0;0;;;0;0;0;0;0;0;0;0;0;0
+10;prop;;DemoCustomerForm;abbreviationExample;;skipped;all_caps_abbrev;;PDF;;;PDF;0;0;0;;;0;0;0;0;0;0;0;0;0;0
+11;prop;;DemoCustomerForm;numericExample;;skipped;numeric_or_symbolic_only;;12345;;;12345;0;0;0;;;0;0;0;0;0;0;0;0;0;0
+12;prop;;DemoCustomerForm;rtfExample;;skipped;rtf_text;;{\rtf1\ansi Demo text %s};;;{\rtf1\ansi Demo text %s};0;0;0;;;0;0;0;0;0;0;0;0;0;0
+13;prop;;DemoCustomerForm;emptyExample;;empty;empty_source;;;;;;0;0;0;;;0;0;0;0;0;0;0;0;0;0
+101;const;1001;;;DemoMessages;translated;;;"Die Datei ""%s"" wurde nicht gefunden.";"Die Datei ""<x-protect>%s</x-protect>"" wurde nicht gefunden.";"Le fichier ""<x-protect>%s</x-protect>"" est introuvable.";"Le fichier ""%s"" est introuvable.";0;0;0;;;0;0;1;1;0;0;0;0;0;0
+102;const;1002;;;DemoMessages;translated;;;%d Einträge wurden verarbeitet.;<x-protect>%d</x-protect> Einträge wurden verarbeitet.;<x-protect>%d</x-protect> entrées ont été traitées.;%d entrées ont été traitées.;0;0;0;;;0;0;1;1;0;0;0;0;0;0
+103;const;1003;;;DemoMessages;translated;;;Datensatz {0} löschen?;Datensatz <x-protect>{0}</x-protect> löschen?;Supprimer l’enregistrement <x-protect>{0}</x-protect> ?;Supprimer l’enregistrement {0} ?;0;0;0;;;0;0;1;1;0;0;0;0;0;0
+104;const;1004;;;DemoMessages;translated;;;"Der Vorgang wurde abgeschlossen.
+Bitte prüfen Sie den Bericht.";"Der Vorgang wurde abgeschlossen.
+Bitte prüfen Sie den Bericht.";"L’opération est terminée.
+Veuillez vérifier le rapport.";"L’opération est terminée.
+Veuillez vérifier le rapport.";0;0;0;;;0;0;0;0;1;1;0;0;0;0
+105;const;1005;;;DemoMessages;translated;;;%s für alle Benutzer löschen;<x-protect>%s</x-protect> für alle Benutzer löschen;<x-protect>%s</x-protect> supprimer pour tous les utilisateurs;%s supprimer pour tous les utilisateurs;0;0;0;;;0;0;1;1;0;0;0;0;0;0
+201;const;2001;;;SystemInternalResources;skipped;excluded_unit;;Dieser Text wird aufgrund des Unit-Filters übersprungen.;;;Dieser Text wird aufgrund des Unit-Filters übersprungen.;0;0;0;;;0;0;0;0;0;0;0;0;0;0

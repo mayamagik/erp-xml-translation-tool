@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<langfile>
+  <head>
+    <locale>1031</locale>
+    <version>1</version>
+    <date FMT="y.m.d">2026.01.01</date>
+    <author>Portfolio Demo</author>
+    <format>
+      <id />
+      <name />
+      <stringid />
+    </format>
+  </head>
+  <properties>
+    <form name="DemoCustomerForm">
+      <prop name="Caption" id="1">Kundenverwaltung</prop>
+      <component name="lblCustomerNumber">
+        <prop name="Caption" id="2">Kundennummer</prop>
+      </component>
+      <component name="lblCustomerName">
+        <prop name="Caption" id="3">Kundenname</prop>
+      </component>
+      <component name="btnOptions">
+        <prop name="Caption" id="4">&amp;Optionen</prop>
+        <prop name="Hint" id="5">Änderungen speichern?</prop>
+      </component>
+      <component name="btnCancel">
+        <prop name="Caption" id="6">Abbrechen</prop>
+      </component>
+      <component name="btnDelete">
+        <prop name="Caption" id="7">Löschen</prop>
+      </component>
+      <component name="lblStatus">
+        <prop name="Caption" id="8">Status: Bereit</prop>
+      </component>
+      <component name="technicalExample">
+        <prop name="Caption" id="9">btnSave</prop>
+      </component>
+      <component name="abbreviationExample">
+        <prop name="Caption" id="10">PDF</prop>
+      </component>
+      <component name="numericExample">
+        <prop name="Caption" id="11">12345</prop>
+      </component>
+      <component name="rtfExample">
+        <prop name="Description.Text" id="12">{\rtf1\ansi Demo text %s}</prop>
+      </component>
+      <component name="emptyExample">
+        <prop name="Caption" id="13"></prop>
+      </component>
+    </form>
+  </properties>
+  <constants>
+    <unit name="DemoMessages">
+      <const name="DEMO_FILE_NOT_FOUND" id="101" stringid="1001">Die Datei "%s" wurde nicht gefunden.</const>
+      <const name="DEMO_ITEMS_PROCESSED" id="102" stringid="1002">%d Einträge wurden verarbeitet.</const>
+      <const name="DEMO_CONFIRM_DELETE" id="103" stringid="1003">Datensatz {0} löschen?</const>
+      <const name="DEMO_MULTILINE_MESSAGE" id="104" stringid="1004">Der Vorgang wurde abgeschlossen.
+Bitte prüfen Sie den Bericht.</const>
+      <const name="DEMO_DELETE_ALL" id="105" stringid="1005">%s für alle Benutzer löschen</const>
+    </unit>
+    <unit name="SystemInternalResources">
+      <const name="INTERNAL_EXAMPLE" id="201" stringid="2001">Dieser Text wird aufgrund des Unit-Filters übersprungen.</const>
+    </unit>
+  </constants>
+</langfile>

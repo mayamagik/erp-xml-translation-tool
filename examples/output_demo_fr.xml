@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<langfile>
+  <head>
+    <locale>1031</locale>
+    <version>1</version>
+    <date FMT="y.m.d">2026.01.01</date>
+    <author>Portfolio Demo</author>
+    <format>
+      <id />
+      <name />
+      <stringid />
+    </format>
+  </head>
+  <properties>
+    <form name="DemoCustomerForm">
+      <prop name="Caption" id="1">Gestion des clients</prop>
+      <component name="lblCustomerNumber">
+        <prop name="Caption" id="2">Numéro de client</prop>
+      </component>
+      <component name="lblCustomerName">
+        <prop name="Caption" id="3">Nom du client</prop>
+      </component>
+      <component name="btnOptions">
+        <prop name="Caption" id="4">&amp;Options</prop>
+        <prop name="Hint" id="5">Enregistrer les modifications ?</prop>
+      </component>
+      <component name="btnCancel">
+        <prop name="Caption" id="6">Annuler</prop>
+      </component>
+      <component name="btnDelete">
+        <prop name="Caption" id="7">Supprimer</prop>
+      </component>
+      <component name="lblStatus">
+        <prop name="Caption" id="8">Statut: Prêt</prop>
+      </component>
+      <component name="technicalExample">
+        <prop name="Caption" id="9">btnSave</prop>
+      </component>
+      <component name="abbreviationExample">
+        <prop name="Caption" id="10">PDF</prop>
+      </component>
+      <component name="numericExample">
+        <prop name="Caption" id="11">12345</prop>
+      </component>
+      <component name="rtfExample">
+        <prop name="Description.Text" id="12">{\rtf1\ansi Demo text %s}</prop>
+      </component>
+      <component name="emptyExample">
+        <prop name="Caption" id="13" />
+      </component>
+    </form>
+  </properties>
+  <constants>
+    <unit name="DemoMessages">
+      <const name="DEMO_FILE_NOT_FOUND" id="101" stringid="1001">Le fichier "%s" est introuvable.</const>
+      <const name="DEMO_ITEMS_PROCESSED" id="102" stringid="1002">%d entrées ont été traitées.</const>
+      <const name="DEMO_CONFIRM_DELETE" id="103" stringid="1003">Supprimer l’enregistrement {0} ?</const>
+      <const name="DEMO_MULTILINE_MESSAGE" id="104" stringid="1004">L’opération est terminée.
+Veuillez vérifier le rapport.</const>
+      <const name="DEMO_DELETE_ALL" id="105" stringid="1005">%s supprimer pour tous les utilisateurs</const>
+    </unit>
+    <unit name="SystemInternalResources">
+      <const name="INTERNAL_EXAMPLE" id="201" stringid="2001">Dieser Text wird aufgrund des Unit-Filters übersprungen.</const>
+    </unit>
+  </constants>
+</langfile>
